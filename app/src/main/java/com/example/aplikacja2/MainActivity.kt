@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.button2).setOnClickListener {
 
             findViewById<Button>(R.id.button2).text = "Przycisk klikniety!"
-
+//
         }
     }
 }
