@@ -14,9 +14,14 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.button).setOnClickListener {
 
-            findViewById<Button>(R.id.button).text = "Pies"
+            findViewById<Button>(R.id.button).text = "Przycisk klikniety!"
 
         }
 
+        findViewById<Button>(R.id.button2).setOnClickListener {
+
+            findViewById<Button>(R.id.button2).text = "Przycisk klikniety!"
+
+        }
     }
 }
